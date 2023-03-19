@@ -2,18 +2,16 @@
 #include <stdlib.h>
 #include <time.h>
 
-
 /**
  * main - Entry point
- * Description: checks on the last digit of the assigned var
+ *
+ * Description: checks on the last value is greater or less than 6
+ *
  * Return: Always 0 (success)
 */
 
-
 int main(void)
 {
-	
-
 	int n, m;
 
 	srand(time(0));
@@ -32,6 +30,4 @@ int main(void)
 		printf("Last digit of %d is %d and is 0\n", n, m);
 	}
 	return (0);
-
-	
 }
