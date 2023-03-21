@@ -2,6 +2,8 @@
 
 /**
  * add - adds 2 int numpers
+ * num1: first numper
+ * num2: second numper
  * Description: add two int print sum
  * Return: sum
  */
