@@ -9,9 +9,11 @@
  *
  * Return: a pointer
  */
+
 char *_strpbrk(char *s, char *accept)
 {
 	int indx;
+
 		while (*s)
 		{
 			for (indx = 0; accept[indx]; indx++)
@@ -21,5 +23,5 @@ char *_strpbrk(char *s, char *accept)
 			}
 			s++;
 		}
-	return (NULL);
+	return ('\0');
 }
