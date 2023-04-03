@@ -24,7 +24,7 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			}
 
-			else if (accept[dex + 1] == '\0)
+			else if (accept[dex + 1] == '\0')
 				return (byt);
 		}
 		s++;
