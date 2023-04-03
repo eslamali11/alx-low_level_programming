@@ -11,7 +11,7 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	int byt = 0;
+	unsigned int byt = 0;
 	int dex;
 
 	while (*s)
