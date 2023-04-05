@@ -20,4 +20,3 @@ int _strlen_recursion(char *s)
 	else
 		return (count);
 }
-
