@@ -1,7 +1,7 @@
-#include <stdlib>
+#include <stdlib.h>
 
 /**
- * _strdup - return a pointer to a copy of string 
+ * _strdup - return a pointer to a copy of string
  *
  * @str: the given parameter
  *
@@ -30,4 +30,6 @@ char *_strdup(char *str)
 		s[i] = str[i];
 		i++;
 	}
+
 	return (s);
+}
