@@ -3,7 +3,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - print the result of operation
  *
  * @argc: num of arg's
@@ -26,7 +25,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(98);
 	}
-	if (get_op_func(op) == 0 || op[1] != '\0')
+	if (get_op_func(op) == NULL || op[1] != '\0')
 	{
 		printf("Error\n");
 		exit(99);
